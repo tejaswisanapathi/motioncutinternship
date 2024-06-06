@@ -1,0 +1,55 @@
+/* estyle.css */
+
+body {
+    font-family: Times New Roman;
+    background-color: #AED6F1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #F4ECF7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: bkack;
+    font-size: 25px;
+    margin-bottom: 20px;
+    align:center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5DADE2;
+}
